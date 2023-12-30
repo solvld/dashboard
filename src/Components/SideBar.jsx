@@ -14,7 +14,9 @@ function SideBar() {
 				<CreditCardIcon className='w-10 bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 ' />
 			</div>
 			<div className='fixed bottom-4 left-3 sm:left-6'>
-				<ArrowUpIcon className='w-10 bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 ' />
+        <a href="#top">
+				  <ArrowUpIcon className='w-10 bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 ' />
+        </a>
 				<BoltIcon className='w-10 bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 ' />
 			</div>
 		</div>
