@@ -1,5 +1,7 @@
 import React from 'react'
 import CardItem from './CardItem'
+import AreaChartCard from './AreaChartCard'
+import TableComponent from './TableComponent'
 
 function LeftColumn() {
   return (
@@ -9,6 +11,10 @@ function LeftColumn() {
 				<CardItem>185</CardItem>
 				<CardItem>999</CardItem>
 			</div>
+      <div className="my-4 gap-4" >
+        <AreaChartCard />
+        <TableComponent />
+      </div>
 		</div>
 	)
 }
